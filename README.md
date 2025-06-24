@@ -42,9 +42,11 @@ Parameters:
 
 # Results
 Unstructured Pruning Performance
-<img src="unstructured_mnist.png" alt="Unstructured Pruning Results" width="400"/> *Achieved 50% sparsity with <1% accuracy drop on MNIST test set*
+<img src="Screenshot 2025-06-24 115624.png" alt="Unstructured Pruning Results" width="300"/>
+*Achieved 50% sparsity with <1% accuracy drop on MNIST test set*
 Structured Pruning Efficiency
-<img src="structured_cifar.png" alt="Structured Pruning Results" width="400"/> *Parameter reduction from 767K to 380K while matching baseline accuracy on CIFAR-10*
+<img src="Screenshot 2025-06-24 115832.png" alt="Structured Pruning Results" width="300"/> 
+*Parameter reduction from 767K to 380K while matching baseline accuracy on CIFAR-10*
 
 # Implementation Details
 Unstructured Pruning: Uses iterative magnitude-based weight pruning with polynomial decay scheduler
